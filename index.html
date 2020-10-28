@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Great Learning</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
+  <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+    
+        <div class="container">
+        <div class="row">
+          <div class="bg">
+            
+            <div class="header_img">
+                <div class="image-box__overlay"></div>
+              <div class="header_data">
+                <div class="col-lg-12 header_logo">
+                  <img src="assets/images/gl-logo-white.png">
+                  
+                  </div>
+                
+                  <div class="col-lg-12 banner_content image-box__content">
+                  <div class="col-lg-8 col-sm-12 col-md-6 left_content">
+                      <h2>PG Program in</h2>
+                      <h2 style="margin-top: 0px;">Data Science and Business Analytics</h2>
+                      <div class="vertical_content">
+                      <h5>Learn Data Science, Business Analytics with India's #1 course and power ahead in your career</h5>
+                          </div>
+                      <div class="online_mentor">
+                      <label class="months_online">11 Months </label> <label class="online_label">Online Mentorship</label>
+                      
+                      </div>
+                      </div>
+                      <div class="col-lg-4 col-sm-12 col-md-6 right_content">
+                       <div class="totalform">
+        <div class="inside_form" id="form_insideclear">
+        <div class="basic_form">
+            <input type="text" id="name" placeholder="Name" minlength="2" maxlength="10" onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123)"/>
+            <span id="error_name" hidden>Please enter name</span>
+          <span id="valid_name" hidden>Please enter more than 2 characters</span>
+            </div>
+            <div class="basic_form">
+            <input type="text" id="email_id" placeholder="Email"  />
+             <span id="error_email" hidden>Please enter email Id</span>
+           <span id="valid_email" hidden>Please enter valid email Id</span>
+            </div>
+         <div class="basic_form">
+            <input type="text" id="MobileNumber" placeholder="Mobile Number" maxlength="10"  onkeypress="return isNumberKey(event)"/>
+             <span id="error_mobile" hidden>Please enter mobile number</span>
+           <span id="valid_mobile" hidden>Please enter valid mobile number</span>
+            </div>
+              <div class="basic_form">
+            <input type="text" id="MobileNumber" placeholder="Work Experience" maxlength="2"  onkeypress="return isNumberKey(event)"/>
+             <span id="error_mobile" hidden>Please enter Work Experience</span>
+          <!-- <span id="valid_mobile" hidden>Please enter valid number</span>-->
+            </div>
+           <div class="basic_form current_basic">
+            <select id="cars">
+              <option value="0">Current Organisation</option>
+              <option value="1">Saab</option>
+              <option value="2">Mercedes</option>
+              <option value="3">Audi</option>
+            </select> 
+            <span id="error_vehicle" hidden>Please select any one vehicle</span>
+            </div>
+          
+        </div>
+                           <div class="button_in">
+        <button form-disable-text='saving...' type="submit" onclick="myForm()" class="save_button btn btn-primary btn-lg">Apply Now</button>
+                               </div>
+                   
+        </div>
+      
+                          
+                      
+                      </div>
+                  
+                  
+                  </div>
+                </div>
+              
+              
+              </div>           
+            </div>  
+            
+        </div>
+            <div class="row">
+            <div class="col-lg-12 col-sm-12 about_great">
+                <div class="sub_heading">
+                <h3>Why Learn From Great Learning</h3>
+                     <hr>
+                </div>
+                <div class="great_video">
+                <iframe width="420" height="315" src="https://www.youtube.com/embed/c64BuiED4Mg"></iframe>
+                </div>
+                </div>
+                <div class="col-lg-12">
+                <div class="curriculum_inside">
+                  
+                    <div class="curriculum_title">
+                        <div class="curriculum_yellow">
+                        <object data="assets/images/curriculum.svg" type="image/svg+xml"  class="logo"> </object>
+                            </div>
+                        <p>Comprehensive Curriculum</p>
+                        </div>    
+                   
+                    <div class="curriculum_title">
+                        <div class="curriculum_blue">
+                        <object data="assets/images/mentorship.svg" type="image/svg+xml"  class="logo"> </object>
+                            </div>
+                        <p>Personalised Mentorship</p>
+                        </div>    
+                        
+                    
+                    <div class="curriculum_title">
+                        <div class="curriculum_green">
+                        <object data="assets/images/career-assistance.svg" type="image/svg+xml"  class="logo"> </object>
+                             </div>
+                        <p>Dedicated Career Assistance</p>
+                        </div>    
+                 
+                    </div>
+                
+                </div>
+            </div>
+            <div class="row">
+            <div class="col-lg-12 colmd-12 col-sm-12 curiculum_support">
+                <div class="col-lg-12 colmd-12 col-sm-12 curiculum_content">
+                    <div class="sub_heading">
+                <h3>Why Learn From Great Learning</h3>
+                        <hr>
+                </div>
+                <button class="accordion">Introduction to Data Science</button>
+                    <div class="panel">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+
+                    <button class="accordion">Business Finance</button>
+                    <div class="panel">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+
+                    <button class="accordion">MArketing and CRM</button>
+                    <div class="panel">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                                        <button class="accordion">SQL Programming</button>
+                    <div class="panel">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <button class="accordion">Advance Statistics</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+           </div>     
+            </div>
+            
+            
+            
+            </div>
+            <div class="row">
+            <div class="learning_data">
+                 <div class="sub_heading">
+                <h3>Learning Outcome</h3>
+                     <hr>
+                     
+                    <h6>Acquire a design thinking mindset, so that you can translate your learnings during the course to drive innovation in your company.</h6>
+                </div>
+                <div class="col-lg-12 col-sm-12 col-md-12 learning_subcontent">
+                <div class="col-lg-6 col-md-6 col-sm-12 learning_points">
+                    <ul class="learning_list">
+                    <li>
+                        <object data="assets/images/black-tick.svg" type="image/svg+xml"  class="logo"> </object>
+                        <span>Develop viable solutions to user challenges using the design thinking and hypothesis-driven innovation process.</span>
+                    </li>
+                        <li>
+                        <object data="assets/images/black-tick.svg" type="image/svg+xml"  class="logo"> </object>
+                        <span>Gainuser empathy through observation and interviewing, and develop user insights to identify unmet needs.</span>
+                    </li>
+                        <li>
+                        <object data="assets/images/black-tick.svg" type="image/svg+xml"  class="logo"> </object>
+                        <span>Use multiple brainstroming techniques to find innovative solutions.</span>
+                    </li>
+                    
+                        <li>
+                        <object data="assets/images/black-tick.svg" type="image/svg+xml"  class="logo"> </object>
+                        <span>Prototype a solution to a use challenge.</span>
+                    </li>
+                        <li>
+                        <object data="assets/images/black-tick.svg" type="image/svg+xml"  class="logo"> </object>
+                        <span>Develop and test a business model or business case to support the viability of the solution.</span>
+                    </li>
+                    </ul>
+                    
+                    </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 learning_image">
+                    
+                    <div class="lap_image">
+                    
+                    <img src="assets/images/laptop.png">
+                    
+                    </div>
+                    
+                    </div>
+                
+                
+                </div>
+                
+                </div>
+            
+            
+            </div>
+            <div class="row">
+             	
+             <div id="carousel1" class="carousel slide testimonial-style" data-ride="carousel">
+                  <div class="sub_heading testimonial_sub">
+                <h3>Testimonials</h3>
+                        <hr>
+                </div>
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel1" data-slide-to="1"></li>
+      <li data-target="#carousel1" data-slide-to="2"></li>
+    </ol>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <div class="carousel-caption testimonial-caption-style">
+         
+          <p class="testimonial-authors">I have already used this on one project, and my boss has already asked me to make a similar prototype for anither project. I also feel likeif i ever were to try starting my own company that my chances of success just went up alot. </p>
+        </div>
+      </div>
+      <div class="item">
+        <div class="carousel-caption testimonial-caption-style">
+         
+          <p class="testimonial-authors">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        </div>
+      </div>
+      <div class="item">
+        <div class="carousel-caption testimonial-caption-style">
+       
+          <p class="testimonial-authors">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Controls -->
+
+    <a class="left carousel-control" href="#carousel1" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
+    <a class="right carousel-control" href="#carousel1" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+  </div>
+                
+            </div>
+            <div class="row">
+            
+            <div class="seperate_content">
+                <div class="inside_content">
+                <p>Great Learning is an Ed-Tech company then offers programs in career  critical competencies such as analytics, Data Science, Artificial Intelligence, Cloud Computing, Cybersecurity, Full Stack Development and much more. Over 10000 professionals have taken Great Learning Programs and it has already delivered over millions hours of learning.</p>
+                
+                
+                </div>
+                
+                
+                
+                </div>
+            
+            
+            </div>
+        
+        </div>
+        <footer>
+        
+        <div class="footer_content">
+            
+           <span>Explore this game changing oppurtunity</span> <button type="button" class="btn btn-primary btn-lg">Apply Now</button>
+            
+        </div>
+        
+        </footer>
+     
+    <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   
+   <script>
+    function myForm(){
+       
+        var name= document.getElementById("name").value;
+        var mobilenumber =document.getElementById("MobileNumber").value;
+        var email =document.getElementById('email_id').value;
+        var  selectvehicle =document.getElementById("cars").value;
+        var a=document.getElementById('radio1');
+        var b=document.getElementById('radio2');
+        var veh1 =document.getElementById('vehicle1') ;
+        var veh2 =document.getElementById('vehicle2');
+        var date=document.getElementById('date').value;
+        var comment=document.getElementById('comment').value;
+        var pattern = /^\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b$/i
+        
+        var isValid = true;
+        
+        if(name == ""){
+            $('#error_name').show();
+            $('#valid_name').hide();
+            isValid = false;
+          
+        }else if(name.length < 2 || name.length >10){
+             $('#error_name').hide();
+            $('#valid_name').show();
+            isValid = false;
+        }
+        else{
+           $('#error_name').hide();
+             $('#valid_name').hide();
+            isValid = true;
+        }
+        if(mobilenumber == ""){
+           $('#error_mobile').show();
+            $('#valid_mobile').hide();
+           isValid = false;
+        }
+        else if(mobilenumber.length < 10){
+             $('#error_mobile').hide();
+            $('#valid_mobile').show();
+            isValid = false;
+        }
+        else{
+            $('#error_mobile').hide();
+             $('#valid_mobile').hide();
+            isValid = true;
+        }
+        if(email == ""){
+            $('#error_email').show();
+            $('#valid_email').hide();
+            isValid = false;
+        }else if(!pattern.test(email))
+            
+            {
+            $('#error_email').hide();
+              $('#valid_email').show();
+                isValid = false;
+           
+          }else{
+             $('#error_email').hide();
+              $('#valid_email').hide();
+              isValid = true;
+             
+          }
+            
+        if(selectvehicle == 0){
+           $('#error_vehicle').show(); 
+            isValid=false;
+        }
+        else{
+            $('#error_vehicle').hide();
+            isValid=true;
+        }
+         if(a.checked==false && b.checked==false){
+             $('#error_gender').show();
+             isValid=false;
+        }
+        else{
+            $('#error_gender').hide();
+            isValid=true;
+        }
+       
+        /*if(isValid == true){
+            alert('success');
+        }*/
+		
+		var obj = {
+					name : name,
+                    mobilenumber : mobilenumber,
+                    email : email,
+                    cars : cars,
+                    date : date,
+                    comment : comment,
+			};
+			$.ajax({
+				type : "POST",
+				url : 'url',
+				contentType : "applicaiton/json; charset=utf-8",
+				dataType : "json",
+				data : JSON.stringify(obj),
+				success : function(response) {
+					if (response.responseType == 200) {
+						alert('success');
+					} else {
+                        alert('failure');
+					} 
+				}
+			});
+    }
+    function isNumberKey(evt)
+      {
+         var charCode = (evt.which) ? evt.which : event.keyCode
+         if (charCode > 31 && (charCode < 48 || charCode > 57))
+            return false;
+         return true;
+      
+      }
+    
+    </script>
+
+    </body>
+</html>
